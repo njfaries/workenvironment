@@ -2138,3 +2138,7 @@
 .p-threads_view__default_background {
   background: rgba(255, 255, 255, 0.05);
 }
+
+.p-threads_view_reply--new_reply {
+      background: rgba(255, 255, 255, 0.05);
+}
