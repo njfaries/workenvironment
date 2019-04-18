@@ -2100,45 +2100,13 @@
   .para_menu .options a span { filter: grayscale(2) brightness(5); }
   .para_menu a.trigger.pilcrow { filter: grayscale(2) brightness(1.8); }
   .para_menu a.trigger.pilcrow:hover, .para_menu a.trigger.pilcrow.active { filter: grayscale(2) brightness(2); }
-
-.p-threads_view {
-  background: #222;
-}
-
-.p-threads_view__divider_line {
-  border-color: #111;
-}
-
-.p-threads_view__divider_label {
-  background: #111;
-}
-
-.p-threads_view_header__channel_name {
-  color: #c7c7c7;
-}
-
-.p-threads_view_root {
-  border-color: #444;
-}
-
-.p-threads_view_reply {
-  border-color: #444;
-}
-
-.p_threads_view_load_newer_button,
-.p_threads_view_load_older_button {
-  background: rgba(255, 255, 255, 0.05);
-  border-color: #444;
-}
-
-.p-threads_view__footer {
-  border-color: #444;
-}
-
-.p-threads_view__default_background {
-  background: rgba(255, 255, 255, 0.05);
-}
-
-.p-threads_view_reply--new_reply {
-      background: rgba(255, 255, 255, 0.05);
-}
+  .p-threads_view { background: #222; }
+  .p-threads_view__divider_line { border-color: #111; }
+  .p-threads_view__divider_label { background: #111; }
+  .p-threads_view_header__channel_name { color: #c7c7c7; }
+  .p-threads_view_root { border-color: #444; }
+  .p-threads_view_reply { border-color: #444; }
+  .p_threads_view_load_newer_button, .p_threads_view_load_older_button { background: rgba(255, 255, 255, 0.05); border-color: #444; }
+  .p-threads_view__footer { border-color: #444; }
+  .p-threads_view__default_background { background: rgba(255, 255, 255, 0.05); }
+  .p-threads_view_reply--new_reply { background: rgba(255, 255, 255, 0.05); }
