@@ -100,7 +100,7 @@ if (window.location.href !== 'about:blank') {
 
 document.addEventListener('DOMContentLoaded', function() {
   $.ajax({
-    url: 'https://cdn.rawgit.com/laCour/slack-night-mode/master/css/raw/black.css',
+    url: 'https://raw.githubusercontent.com/njfaries/workenvironment/master/slack-css.css',
     success: function(css) {
       $("<style></style>").appendTo('head').html(css);
     }
